@@ -1,1 +1,348 @@
-{"theme":{"name":"FoldableTheme","styles":["default","black","blue","cyan","green","purple","red","yellow"],"version":"2.11","sharedTheme":{"isPortalSupport":true,"useHeader":false,"useLogo":true}},"portalUrl":"https://cmap.cathaylife.com.tw/arcgis","appId":"","authorizedCrossOriginDomains":[],"title":"testAuth","subtitle":"with Web AppBuilder for ArcGIS","keepAppState":false,"logo":"https://cmap.cathaylife.com.tw/arcgis/sharing/rest/content/items/7158c7d72fcd41bfb4be037c3c63724b/data","geometryService":"https://cmap.cathaylife.com.tw/server/rest/services/Utilities/Geometry/GeometryServer","links":[],"widgetOnScreen":{"widgets":[{"uri":"themes/FoldableTheme/widgets/HeaderController/Widget","position":{"left":0,"top":0,"right":0,"height":40,"relativeTo":"browser"},"version":"2.11","id":"themes_FoldableTheme_widgets_HeaderController_Widget_1","name":"HeaderController"},{"uri":"widgets/Scalebar/Widget","position":{"left":7,"bottom":25,"relativeTo":"map"},"version":"2.11","id":"widgets_Scalebar_Widget_2","name":"Scalebar"},{"uri":"widgets/Search/Widget","position":{"left":55,"top":5,"relativeTo":"map"},"version":"2.11","id":"widgets_Search_Widget_3","name":"Search"},{"uri":"widgets/Coordinate/Widget","position":{"left":7,"bottom":5,"relativeTo":"map"},"version":"2.11","id":"widgets_Coordinate_Widget_4","name":"Coordinate"},{"position":{"left":55,"top":45,"relativeTo":"map"},"placeholderIndex":1,"id":"_5"},{"position":{"left":105,"top":45,"relativeTo":"map"},"placeholderIndex":2,"id":"_6"},{"position":{"left":155,"top":45,"relativeTo":"map"},"placeholderIndex":3,"id":"_7"},{"position":{"left":205,"top":45,"relativeTo":"map"},"placeholderIndex":4,"id":"_8"},{"position":{"left":255,"top":45,"relativeTo":"map"},"placeholderIndex":5,"id":"_9"},{"uri":"widgets/OverviewMap/Widget","position":{"bottom":0,"right":0,"zIndex":1,"relativeTo":"map"},"version":"2.11","id":"widgets_OverviewMap_Widget_10","name":"OverviewMap"},{"uri":"widgets/HomeButton/Widget","position":{"left":7,"top":75,"relativeTo":"map"},"version":"2.11","id":"widgets_HomeButton_Widget_11","name":"HomeButton"},{"uri":"widgets/MyLocation/Widget","position":{"left":7,"top":110,"relativeTo":"map"},"version":"2.11","id":"widgets_MyLocation_Widget_12","name":"MyLocation"},{"uri":"widgets/AttributeTable/Widget","position":{"relativeTo":"browser"},"version":"2.11","id":"widgets_AttributeTable_Widget_13","name":"AttributeTable"},{"uri":"widgets/Splash/Widget","visible":false,"position":{"relativeTo":"browser"},"version":"2.11","id":"widgets_Splash_Widget_14","name":"Splash"},{"uri":"widgets/ZoomSlider/Widget","position":{"top":5,"left":7,"relativeTo":"map"},"version":"2.11","id":"widgets_ZoomSlider_Widget_15","name":"ZoomSlider"},{"uri":"widgets/ExtentNavigate/Widget","visible":false,"position":{"top":190,"left":7,"relativeTo":"map"},"id":"widgets_ExtentNavigate_Widget_16","name":"ExtentNavigate","version":"2.11"},{"uri":"widgets/FullScreen/Widget","visible":false,"position":{"top":150,"left":7,"relativeTo":"map"},"version":"2.11","id":"widgets_FullScreen_Widget_17","name":"FullScreen"}],"panel":{"uri":"jimu/OnScreenWidgetPanel","position":{"relativeTo":"map"}}},"map":{"3D":false,"2D":true,"position":{"left":0,"top":40,"right":0,"bottom":0},"itemId":"e8c834a54f774ab890846c6aa2af9e92","mapOptions":{},"id":"map","portalUrl":"https://cmap.cathaylife.com.tw/arcgis/","mapRefreshInterval":{"useWebMapRefreshInterval":true}},"widgetPool":{"panel":{"uri":"themes/FoldableTheme/panels/FoldablePanel/Panel","position":{"top":5,"right":5,"bottom":5,"zIndex":5,"relativeTo":"map"}},"widgets":[{"uri":"widgets/Legend/Widget","version":"2.11","id":"widgets_Legend_Widget_18","name":"Legend","index":0,"config":{"legend":{"arrangement":0,"autoUpdate":true,"respectCurrentMapScale":true},"layerState":{"service_e7c25276a91e4c1bb3ced0b70f95225c_1756":{"selected":true}},"syncWithWebmap":false,"showLegendForBasemap":false}},{"uri":"widgets/LayerList/Widget","version":"2.11","id":"widgets_LayerList_Widget_19","name":"LayerList","index":1,"config":{"showTitle":true,"showBasemap":false,"showLegend":false,"expandAllLayersByDefault":false,"contextMenu":{"ZoomTo":true,"Transparency":true,"SetVisibilityRange":true,"EnableOrDisablePopup":true,"ControlLabels":true,"MoveupOrMovedown":true,"OpenAttributeTable":true,"DescriptionOrShowItemDetailsOrDownload":true},"layerOptions":{"service_e7c25276a91e4c1bb3ced0b70f95225c_1756":{"display":true},"service_e7c25276a91e4c1bb3ced0b70f95225c_4657":{"display":false},"service_e7c25276a91e4c1bb3ced0b70f95225c_859":{"display":false}}}}]},"mobileLayout":{"widgetOnScreen":{"widgets":{"widgets/Scalebar/Widget":{"position":{"left":7,"bottom":40},"version":"1.4"},"widgets/Coordinate/Widget":{"position":{"left":7,"bottom":17},"version":"1.4"}}}},"loadingPage":{"backgroundColor":"#508dca","backgroundImage":{"visible":false},"loadingGif":{"visible":true,"uri":"configs/loading/images/predefined_loading_1.gif","width":58,"height":29}},"wabVersion":"2.11","_buildInfo":{"widgetManifestsMerged":true},"isWebTier":false,"logoLink":"https://www.cathayholdings.com/holdings/","dataSource":{"dataSources":{},"settings":{}},"appItemId":"67ae3253d08f413397a7c95c84228122"}
+{
+    "theme": {
+        "name": "FoldableTheme",
+        "styles": [
+            "default",
+            "black",
+            "blue",
+            "cyan",
+            "green",
+            "purple",
+            "red",
+            "yellow"
+        ],
+        "version": "2.11",
+        "sharedTheme": {
+            "isPortalSupport": true,
+            "useHeader": false,
+            "useLogo": true
+        }
+    },
+    "portalUrl": "https://cmap.cathaylife.com.tw/arcgis",
+    "appId": "",
+    "authorizedCrossOriginDomains": [],
+    "title": "testAuth",
+    "subtitle": "with Web AppBuilder for ArcGIS",
+    "keepAppState": false,
+    "logo": "https://cmap.cathaylife.com.tw/arcgis/sharing/rest/content/items/7158c7d72fcd41bfb4be037c3c63724b/data",
+    "geometryService": "https://cmap.cathaylife.com.tw/server/rest/services/Utilities/Geometry/GeometryServer",
+    "links": [],
+    "widgetOnScreen": {
+        "widgets": [
+            {
+                "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+                "position": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "height": 40,
+                    "relativeTo": "browser"
+                },
+                "version": "2.11",
+                "id": "themes_FoldableTheme_widgets_HeaderController_Widget_1",
+                "name": "HeaderController"
+            },
+            {
+                "uri": "widgets/Scalebar/Widget",
+                "position": {
+                    "left": 7,
+                    "bottom": 25,
+                    "relativeTo": "map"
+                },
+                "version": "2.11",
+                "id": "widgets_Scalebar_Widget_2",
+                "name": "Scalebar"
+            },
+            {
+                "uri": "widgets/Search/Widget",
+                "position": {
+                    "left": 55,
+                    "top": 5,
+                    "relativeTo": "map"
+                },
+                "version": "2.11",
+                "id": "widgets_Search_Widget_3",
+                "name": "Search"
+            },
+            {
+                "uri": "widgets/Coordinate/Widget",
+                "position": {
+                    "left": 7,
+                    "bottom": 5,
+                    "relativeTo": "map"
+                },
+                "version": "2.11",
+                "id": "widgets_Coordinate_Widget_4",
+                "name": "Coordinate"
+            },
+            {
+                "position": {
+                    "left": 55,
+                    "top": 45,
+                    "relativeTo": "map"
+                },
+                "placeholderIndex": 1,
+                "id": "_5"
+            },
+            {
+                "position": {
+                    "left": 105,
+                    "top": 45,
+                    "relativeTo": "map"
+                },
+                "placeholderIndex": 2,
+                "id": "_6"
+            },
+            {
+                "position": {
+                    "left": 155,
+                    "top": 45,
+                    "relativeTo": "map"
+                },
+                "placeholderIndex": 3,
+                "id": "_7"
+            },
+            {
+                "position": {
+                    "left": 205,
+                    "top": 45,
+                    "relativeTo": "map"
+                },
+                "placeholderIndex": 4,
+                "id": "_8"
+            },
+            {
+                "position": {
+                    "left": 255,
+                    "top": 45,
+                    "relativeTo": "map"
+                },
+                "placeholderIndex": 5,
+                "id": "_9"
+            },
+            {
+                "uri": "widgets/OverviewMap/Widget",
+                "position": {
+                    "bottom": 0,
+                    "right": 0,
+                    "zIndex": 1,
+                    "relativeTo": "map"
+                },
+                "version": "2.11",
+                "id": "widgets_OverviewMap_Widget_10",
+                "name": "OverviewMap"
+            },
+            {
+                "uri": "widgets/HomeButton/Widget",
+                "position": {
+                    "left": 7,
+                    "top": 75,
+                    "relativeTo": "map"
+                },
+                "version": "2.11",
+                "id": "widgets_HomeButton_Widget_11",
+                "name": "HomeButton"
+            },
+            {
+                "uri": "widgets/MyLocation/Widget",
+                "position": {
+                    "left": 7,
+                    "top": 110,
+                    "relativeTo": "map"
+                },
+                "version": "2.11",
+                "id": "widgets_MyLocation_Widget_12",
+                "name": "MyLocation"
+            },
+            {
+                "uri": "widgets/AttributeTable/Widget",
+                "position": {
+                    "relativeTo": "browser"
+                },
+                "version": "2.11",
+                "id": "widgets_AttributeTable_Widget_13",
+                "name": "AttributeTable"
+            },
+            {
+                "uri": "widgets/Splash/Widget",
+                "visible": false,
+                "position": {
+                    "relativeTo": "browser"
+                },
+                "version": "2.11",
+                "id": "widgets_Splash_Widget_14",
+                "name": "Splash"
+            },
+            {
+                "uri": "widgets/ZoomSlider/Widget",
+                "position": {
+                    "top": 5,
+                    "left": 7,
+                    "relativeTo": "map"
+                },
+                "version": "2.11",
+                "id": "widgets_ZoomSlider_Widget_15",
+                "name": "ZoomSlider"
+            },
+            {
+                "uri": "widgets/ExtentNavigate/Widget",
+                "visible": false,
+                "position": {
+                    "top": 190,
+                    "left": 7,
+                    "relativeTo": "map"
+                },
+                "id": "widgets_ExtentNavigate_Widget_16",
+                "name": "ExtentNavigate",
+                "version": "2.11"
+            },
+            {
+                "uri": "widgets/FullScreen/Widget",
+                "visible": false,
+                "position": {
+                    "top": 150,
+                    "left": 7,
+                    "relativeTo": "map"
+                },
+                "version": "2.11",
+                "id": "widgets_FullScreen_Widget_17",
+                "name": "FullScreen"
+            }
+        ],
+        "panel": {
+            "uri": "jimu/OnScreenWidgetPanel",
+            "position": {
+                "relativeTo": "map"
+            }
+        }
+    },
+    "map": {
+        "3D": false,
+        "2D": true,
+        "position": {
+            "left": 0,
+            "top": 40,
+            "right": 0,
+            "bottom": 0
+        },
+        "itemId": "e8c834a54f774ab890846c6aa2af9e92",
+        "mapOptions": {},
+        "id": "map",
+        "portalUrl": "https://cmap.cathaylife.com.tw/arcgis/",
+        "mapRefreshInterval": {
+            "useWebMapRefreshInterval": true
+        }
+    },
+    "widgetPool": {
+        "panel": {
+            "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+            "position": {
+                "top": 5,
+                "right": 5,
+                "bottom": 5,
+                "zIndex": 5,
+                "relativeTo": "map"
+            }
+        },
+        "widgets": [
+            {
+                "uri": "widgets/Legend/Widget",
+                "version": "2.11",
+                "id": "widgets_Legend_Widget_18",
+                "name": "Legend",
+                "index": 0,
+                "config": {
+                    "legend": {
+                        "arrangement": 0,
+                        "autoUpdate": true,
+                        "respectCurrentMapScale": true
+                    },
+                    "layerState": {
+                        "service_e7c25276a91e4c1bb3ced0b70f95225c_1756": {
+                            "selected": true
+                        }
+                    },
+                    "syncWithWebmap": false,
+                    "showLegendForBasemap": false
+                }
+            },
+            {
+                "uri": "widgets/LayerList/Widget",
+                "version": "2.11",
+                "id": "widgets_LayerList_Widget_19",
+                "name": "LayerList",
+                "index": 1,
+                "config": {
+                    "showTitle": true,
+                    "showBasemap": false,
+                    "showLegend": false,
+                    "expandAllLayersByDefault": false,
+                    "contextMenu": {
+                        "ZoomTo": true,
+                        "Transparency": true,
+                        "SetVisibilityRange": true,
+                        "EnableOrDisablePopup": true,
+                        "ControlLabels": true,
+                        "MoveupOrMovedown": true,
+                        "OpenAttributeTable": true,
+                        "DescriptionOrShowItemDetailsOrDownload": true
+                    },
+                    "layerOptions": {
+                        "service_e7c25276a91e4c1bb3ced0b70f95225c_1756": {
+                            "display": true
+                        },
+                        "service_e7c25276a91e4c1bb3ced0b70f95225c_4657": {
+                            "display": false
+                        },
+                        "service_e7c25276a91e4c1bb3ced0b70f95225c_859": {
+                            "display": false
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "mobileLayout": {
+        "widgetOnScreen": {
+            "widgets": {
+                "widgets/Scalebar/Widget": {
+                    "position": {
+                        "left": 7,
+                        "bottom": 40
+                    },
+                    "version": "1.4"
+                },
+                "widgets/Coordinate/Widget": {
+                    "position": {
+                        "left": 7,
+                        "bottom": 17
+                    },
+                    "version": "1.4"
+                }
+            }
+        }
+    },
+    "loadingPage": {
+        "backgroundColor": "#508dca",
+        "backgroundImage": {
+            "visible": false
+        },
+        "loadingGif": {
+            "visible": true,
+            "uri": "configs/loading/images/predefined_loading_1.gif",
+            "width": 58,
+            "height": 29
+        }
+    },
+    "wabVersion": "2.11",
+    "_buildInfo": {
+        "widgetManifestsMerged": true
+    },
+    "isWebTier": true,
+    "logoLink": "https://www.cathayholdings.com/holdings/",
+    "dataSource": {
+        "dataSources": {},
+        "settings": {}
+    },
+    "appItemId": "67ae3253d08f413397a7c95c84228122"
+}

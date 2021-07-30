@@ -15,7 +15,8 @@
   "coordinateconversion": {
     "zoomScale": 50000
   },
-  "initialCoords": [{
+  "initialCoords": [
+    {
       "notation": "DD",
       "defaultFormat": "YN XE"
     },
@@ -48,7 +49,7 @@
       "defaultFormat": "ZB X Y"
     },
     {
-      "notation": "UTM_H",
+      "notation": "UTM (H)",
       "defaultFormat": "ZH X Y"
     }
   ]

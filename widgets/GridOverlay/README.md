@@ -15,7 +15,7 @@ The U.S. Military Grid Reference System (MGRS) is an alpha-numeric system, based
 * Client-side MGRS grid
 
 ## Requirements
-* Requires ArcGIS Web AppBuilder version 1.2 (minimum)
+* Requires Web AppBuilder for ArcGIS version 1.2 (minimum)
 
 ## Instructions
 * Deploying Widgets.

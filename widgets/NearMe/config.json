@@ -1,7 +1,5 @@
 {
-    "enableDirection": false,
     "fontColor": "#000000",
-    "highlightColor": "#00FFFF",
     "bufferInfo": {
         "isVisible": false
     },
@@ -108,12 +106,6 @@
     "searchSourceSettings": {
         "allPlaceholder": "",
         "showInfoWindowOnSelect": true,
-        "sources": [],
-        "bufferInputOption": "slider"
-    },
-    "showImageGallery": true,
-    "showFeaturesCount": true,
-    "noFeatureFoundMessage": "",
-    "showCurrentLocationTool": false,
-    "showSelectionColor": true
+        "sources": []
+    }
 }

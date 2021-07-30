@@ -21,10 +21,6 @@
         "transparency": 0.78,
         "type": "esriSFSSolid"
       }
-    },
-    "operationalLayer": {
-      "name": ""
-    },
-    "unit": "feet"
+    }
   }
 }

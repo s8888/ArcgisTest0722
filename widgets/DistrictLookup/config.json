@@ -1,5 +1,4 @@
 {
-    "enableDirection": false,
     "directionLengthUnit": "UNIT_STATUTE_MILE",
     "highlightColor":"#00FFFF",
     "showLocationTool": false,

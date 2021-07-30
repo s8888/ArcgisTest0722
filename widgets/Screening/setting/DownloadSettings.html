@@ -7,9 +7,8 @@
       <!--Sync-enable feature service option-->
       <div class="esriCTSyncEnableOptionDiv">
         <!--Sync-enable radio button-->
-        <input class="esriCTDownloadRadioButton" id="syncEnableOption" name="downloadOption" type="radio" class="jimu-radio-btn"
-          data-dojo-type="dijit/form/RadioButton" value="syncEnable" data-dojo-attach-point="syncEnableRadioButton"
-          data-dojo-props="group:'radioButtonDownloadOption'">
+        <input class="esriCTDownloadRadioButton" id="syncEnableOption" name="downloadOption" type="radio" class="jimu-radio-btn" data-dojo-type="dijit/form/RadioButton" value="syncEnable"
+          data-dojo-attach-point="syncEnableRadioButton" data-dojo-props="group:'radioButtonDownloadOption'">
         <label class="esriCTDownloadOptionLabel esriCTDownloadLabel" for="syncEnableOption">
           ${nls.downloadTab.syncEnableOptionLabel}
         </label>
@@ -27,9 +26,8 @@
       <!--Extract data task geoprocessing service option-->
       <div class="esriCTGPServiceOptionDiv">
         <!--Extract data task radio button-->
-        <input class="esriCTDownloadRadioButton" id="gpServiceOption" name="downloadOption" type="radio" class="jimu-radio-btn"
-          data-dojo-type="dijit/form/RadioButton" value="extractDataTask" data-dojo-attach-point="gpServiceRadioButton"
-          data-dojo-props="group:'radioButtonDownloadOption'">
+        <input class="esriCTDownloadRadioButton" id="gpServiceOption" name="downloadOption" type="radio" class="jimu-radio-btn" data-dojo-type="dijit/form/RadioButton" value="extractDataTask"
+          data-dojo-attach-point="gpServiceRadioButton" data-dojo-props="group:'radioButtonDownloadOption'">
         <!--Extract data task download option label and hint container-->
         <label class="esriCTDownloadOptionLabel esriCTDownloadLabel" for="gpServiceOption">
           ${nls.downloadTab.extractDataTaskOptionLabel}
@@ -51,17 +49,15 @@
           data-dojo-props='required:true,trim:true,disabled:true'>
         </div>
         <!--Set Button-->
-        <div class="jimu-btn jimu-float-trailing esriCTDownloadTabSetButton" data-dojo-attach-point="extractDataTaskSetButton"
-          title="${nls.downloadTab.setButtonLabel}">
+        <div class="jimu-btn jimu-float-trailing esriCTDownloadTabSetButton" data-dojo-attach-point="extractDataTaskSetButton" title="${nls.downloadTab.setButtonLabel}">
           ${nls.downloadTab.setButtonLabel}
         </div>
       </div>
       <!--User cannot download-->
       <div class="esriCTCannotDownloadOptionDiv">
         <!--User cannot download radio button-->
-        <input class="esriCTDownloadRadioButton" id="cannotDownloadOption" name="downloadOption" type="radio" class="jimu-radio-btn"
-          data-dojo-type="dijit/form/RadioButton" value="cannotDownload" data-dojo-attach-point="cannotDownloadRadioButton"
-          data-dojo-props="group:'radioButtonDownloadOption'">
+        <input class="esriCTDownloadRadioButton" id="cannotDownloadOption" name="downloadOption" type="radio" class="jimu-radio-btn" data-dojo-type="dijit/form/RadioButton" value="cannotDownload"
+          data-dojo-attach-point="cannotDownloadRadioButton" data-dojo-props="group:'radioButtonDownloadOption'">
         <!--User cannot download option label div-->
         <label class="esriCTDownloadOptionLabel esriCTDownloadLabel" for="cannotDownloadOption">
           ${nls.downloadTab.cannotDownloadOptionLabel}
@@ -84,8 +80,7 @@
           data-dojo-props='required:true,trim:true,disabled:true'>
         </div>
         <!--Set BUTTON-->
-        <div class="jimu-btn jimu-float-trailing esriCTDownloadTabSetButton" data-dojo-attach-point="printGPServiceSetButton"
-          title="${nls.downloadTab.setButtonLabel}">
+        <div class="jimu-btn jimu-float-trailing esriCTDownloadTabSetButton" data-dojo-attach-point="printGPServiceSetButton" title="${nls.downloadTab.setButtonLabel}">
           ${nls.downloadTab.setButtonLabel}
         </div>
       </div>
@@ -95,8 +90,7 @@
       <div data-dojo-attach-point="defaultLayoutTable" class="esriCTDefaultLayoutTable"></div>
       <!-- Default layout ends -->
       <!-- Custom Layout button starts -->
-      <div class="esriCTAddCustomLayoutParentContainer esriCTCustomOptionBtnAddSection esriCTCustomOptionButtonDisable"
-        data-dojo-attach-point="addCustomOptionButton">
+      <div class="esriCTAddCustomLayoutParentContainer esriCTCustomOptionBtnAddSection esriCTCustomOptionButtonDisable" data-dojo-attach-point="addCustomOptionButton">
         <span class="esriCTCustomOptionBtnAddIcon esriCTCustomOptionBtnAddIconDisable" data-dojo-attach-point="addCustomOptionButtonIcon"></span>
         <span class="esriCTCustomOptionBtnAddLabel">${nls.downloadTab.addCustomLayoutTitle}</span>
       </div>
@@ -139,30 +133,6 @@
         </div>
       </div>
       <!--Report Title container end-->
-      <!--No data string representation starts-->
-      <div class="esriCTDownloadTabReportTitleContainer" data-dojo-attach-point="noDataTextRepresentation">
-        <!--No data String Representation  LABEL-->
-        <div class="esriCTDownloadTabLabel">
-          ${nls.downloadTab.noDataTextRepresentation}
-        </div>
-        <!--No data string representation TEXTAREA-->
-        <div data-dojo-attach-point="noDataTextRepresentationTextBox" class="esriCTDownloadTabReportInputNode"
-          data-dojo-type="dijit/form/TextBox" value="${nls.downloadTab.noDataDefaultText}">
-        </div>
-      </div>
-      <!--No data string representation ends-->
-      <!--NA string representation starts-->
-      <div class="esriCTDownloadTabReportTitleContainer" data-dojo-attach-point="naTextRepresentation">
-        <!--NA String Representation  LABEL-->
-        <div class="esriCTDownloadTabLabel">
-          ${nls.downloadTab.naTextRepresentation}
-        </div>
-        <!--NA string representation TEXTAREA-->
-        <div data-dojo-attach-point="naTextRepresentationTextBox" class="esriCTDownloadTabReportInputNode"
-          data-dojo-type="dijit/form/TextBox" value="${nls.downloadTab.notApplicableDefaultText}">
-        </div>
-      </div>
-      <!--NA String Representation ends-->
       <!--Column title Color Picker container starts-->
       <div class="esriCTDownloadTabReportTitleContainer" data-dojo-attach-point="reportTitle">
         <div class="esriCTDownloadTabLabel">
@@ -174,50 +144,14 @@
         </div>
       </div>
       <!--Column title Color Picker container ends-->
-      <!-- Display summary in report option starts -->
-      <div class="esriCTDownloadTabReportTitleContainer">
-        <div class="esriCTDisplaySummaryParentContainer">
-          <div data-dojo-type="jimu/dijit/CheckBox" class="jimu-checkbox esriCTCheckBox"
-            data-dojo-attach-point="displaySummaryInReportCheckBox" checked="true">
-          </div>
-        </div>
-        <div class="esriCTDisplaySummaryLabel">
-          ${nls.downloadTab.displaySummaryLabel}
-        </div>
-      </div>
-      <!-- Display summary in report option ends -->
-      <!-- Hide rows having all values zero in report option starts-->
-      <div class="esriCTDownloadTabReportTitleContainer">
-        <div class="esriCTDisplaySummaryParentContainer">
-          <div data-dojo-type="jimu/dijit/CheckBox" class="jimu-checkbox esriCTCheckBox"
-            data-dojo-attach-point="hideAllZeroRowCheckBox" checked="false">
-          </div>
-        </div>
-        <div class="esriCTDisplaySummaryLabel">
-          ${nls.downloadTab.hideZeroValueRowLabel}
-        </div>
-      </div>
-      <!-- Hide rows having all values zero in report option ends-->
-      <!-- Hide rows having all values NULL in report option starts-->
-      <div class="esriCTDownloadTabReportTitleContainer">
-        <div class="esriCTDisplaySummaryParentContainer">
-          <div data-dojo-type="jimu/dijit/CheckBox" class="jimu-checkbox esriCTCheckBox"
-            data-dojo-attach-point="hideNullRowCheckBox" checked="false">
-          </div>
-        </div>
-        <div class="esriCTDisplaySummaryLabel">
-          ${nls.downloadTab.hideNullValueRowLabel}
-        </div>
-      </div>
-      <!-- Hide rows having all values NULL in report option ends-->
       <!--Footnote container starts-->
       <div class="esriCTFootnoteContainer">
         <!--Footnote LABEL-->
         <div class="esriCTDownloadTabLabel">
           ${nls.downloadTab.footnoteLabel}
         </div>
-        <!--Footnote TextEditor-->
-        <div class="esriCTFootnoteTextArea" data-dojo-attach-point="footNoteEditor"></div>
+        <!--Footnote TEXTAREA-->
+        <textarea class="esriCTFootnoteTextArea" data-dojo-attach-point="footnoteTextArea" rows="5"></textarea>
       </div>
       <!--Footnote container ends-->
     </div>

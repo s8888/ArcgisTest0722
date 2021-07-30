@@ -1,9 +1,5 @@
 {
   "overviewMap":{
-    "visible": false,
-    "baseLayer": {
-      "url": "",
-      "type": "baseMap"
-    }
+    "visible": false
   }
 }

@@ -102,8 +102,7 @@
   "addresseeSourceSettings": {
     "sources": [
       ""
-    ],
-    "showReviewButton": true
+    ]
   },
   "notificationSettings": {
     "labelFormats": [

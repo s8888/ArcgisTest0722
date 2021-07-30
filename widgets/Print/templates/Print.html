@@ -54,17 +54,11 @@
                                 /><label data-dojo-attach-point="printWidgetMapExtentLabel">${nls.mapExtent}</label>
                             </td>
                             <tr>
-                                <td style="vertical-align: top; padding-top: 7px;">
+                                <td>
                                     ${nls.forceScale}:
                                 </td>
                                 <td>
-                                    <div style="display: flex;">
-                                        <input type="radio" style="margin-top: 7px;" data-dojo-type="dijit/form/RadioButton" data-dojo-props="name:'preserveScale',value:'force',checked:false"/>
-                                        <div style="display: flex; flex-direction: column;">
-                                            <input type="text" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props="name:'forcedScale',required:false,style:'width:100px;'" data-dojo-attach-point="forceScaleNTB"/>
-                                            <a href="#" data-dojo-attach-event="click:getCurrentMapScale">${nls.getCurrentScale}</a>
-                                        </div>
-                                    </div>
+                                    <input type="radio" data-dojo-type="dijit/form/RadioButton" data-dojo-props="name:'preserveScale',value:'force',checked:false"/> <input type="text" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props="name:'forcedScale',required:false,style:'width:100px;'" data-dojo-attach-point="forceScaleNTB"/> <a href="#" data-dojo-attach-event="click:getCurrentMapScale">${nls.getCurrentScale}</a>
                                 </td>
                             </tr>
                         </tr>

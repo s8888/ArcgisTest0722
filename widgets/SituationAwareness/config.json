@@ -20,6 +20,6 @@
   "maxDistance": "80",
   "defaultZoomLevel": 13,
   "tabs": [],
-  "summaryDisplayEnabled": true,
-  "exportFieldsOptionForCSV": "allFields"
+  "csvAllFields": true,
+  "summaryDisplayEnabled": true
 }

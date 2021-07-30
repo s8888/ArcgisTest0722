@@ -20,7 +20,7 @@
     },
     "portalUrl": "https://cmap.cathaylife.com.tw/arcgis",
     "appId": "hjBrDT3ktqBBn97P",
-    "authorizedCrossOriginDomains": [],
+    "authorizedCrossOriginDomains": ["cmap.cathaylife.com.tw"],
     "title": "testAuth",
     "subtitle": "with Web AppBuilder for ArcGIS",
     "keepAppState": false,

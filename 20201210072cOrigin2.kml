@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<name>
+地震編號:109072
+</name>
+<open>1</open>
+<!-- Highlight -->
+  <Style id="cwb_out">
+    <Icon><href>files/epicenter.png</href></Icon>
+    <LabelStyle><scale>0</scale></LabelStyle>
+  </Style>
+  <Style id="cwb_in">
+    <Icon><href>files/epicenter.png</href></Icon>
+    <LabelStyle><scale>1</scale></LabelStyle>
+  </Style>
+  <StyleMap id="eqmap">
+    <Pair><key>highlight</key><styleUrl>#cwb_in</styleUrl></Pair> 
+    <Pair><key>normal</key><styleUrl>#cwb_out</styleUrl></Pair>
+  </StyleMap>
+  <Style id="circle"><LineStyle><color>ffffffff</color><width>5</width></LineStyle></Style>
+    <Style id="his_eqn">
+        <LabelStyle><scale>0</scale></LabelStyle>
+    </Style>
+    <Style id="his_eqh">
+        <LabelStyle><scale>1</scale></LabelStyle>
+    </Style>
+    <StyleMap id="his_eq">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#his_eqn</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#his_eqh</styleUrl>
+        </Pair>
+    </StyleMap>
+    <StyleMap id="msn_9">
+        <Pair><key>normal</key><styleUrl>#sn_9</styleUrl></Pair>
+        <Pair><key>highlight</key><styleUrl>#sh_9</styleUrl></Pair>
+    </StyleMap>
+    <Style id="sh_9">
+        <IconStyle><scale>1.4</scale><heading>0</heading><Icon><href>files/9.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/9-lv.png</href></ItemIcon></ListStyle>
+        <LabelStyle><scale>1</scale></LabelStyle>
+    </Style>
+    <Style id="sn_9">
+        <IconStyle><scale>1.4</scale><heading>0</heading><Icon><href>files/9.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/9-lv.png</href></ItemIcon></ListStyle>
+       <LabelStyle><scale>0</scale></LabelStyle>
+    </Style>
+    <StyleMap id="msn_8">
+        <Pair><key>normal</key><styleUrl>#sn_8</styleUrl></Pair>
+        <Pair><key>highlight</key><styleUrl>#sh_8</styleUrl></Pair>
+    </StyleMap>
+    <Style id="sh_8">
+        <IconStyle><scale>1.2</scale><heading>0</heading><Icon><href>files/8.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/8-lv.png</href></ItemIcon></ListStyle>
+        <LabelStyle><scale>1</scale></LabelStyle>
+    </Style>
+    <Style id="sn_8">
+        <IconStyle><scale>1.2</scale><heading>0</heading><Icon><href>files/8.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/8-lv.png</href></ItemIcon></ListStyle>
+       <LabelStyle><scale>0</scale></LabelStyle>
+    </Style>
+    <StyleMap id="msn_7">
+        <Pair><key>normal</key><styleUrl>#sn_7</styleUrl></Pair>
+        <Pair><key>highlight</key><styleUrl>#sh_7</styleUrl></Pair>
+    </StyleMap>
+    <Style id="sh_7">
+        <IconStyle><scale>1.1</scale><heading>0</heading><Icon><href>files/7.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/7-lv.png</href></ItemIcon></ListStyle>
+        <LabelStyle><scale>1</scale></LabelStyle>
+    </Style>
+    <Style id="sn_7">
+        <IconStyle><scale>1.1</scale><heading>0</heading><Icon><href>files/7.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/7-lv.png</href></ItemIcon></ListStyle>
+       <LabelStyle><scale>0</scale></LabelStyle>
+    </Style>
+    <StyleMap id="msn_6">
+        <Pair><key>normal</key><styleUrl>#sn_6</styleUrl></Pair>
+        <Pair><key>highlight</key><styleUrl>#sh_6</styleUrl></Pair>
+    </StyleMap>
+    <Style id="sh_6">
+        <IconStyle><scale>1.1</scale><heading>0</heading><Icon><href>files/6.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/6-lv.png</href></ItemIcon></ListStyle>
+        <LabelStyle><scale>1</scale></LabelStyle>
+    </Style>
+    <Style id="sn_6">
+        <IconStyle><scale>1.1</scale><heading>0</heading><Icon><href>files/6.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/6-lv.png</href></ItemIcon></ListStyle>
+       <LabelStyle><scale>0</scale></LabelStyle>
+    </Style>
+    <StyleMap id="msn_5">
+        <Pair><key>normal</key><styleUrl>#sn_5</styleUrl></Pair>
+        <Pair><key>highlight</key><styleUrl>#sh_5</styleUrl></Pair>
+    </StyleMap>
+    <Style id="sh_5">
+        <IconStyle><scale>0.9</scale><heading>0</heading><Icon><href>files/5.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/5-lv.png</href></ItemIcon></ListStyle>
+        <LabelStyle><scale>1</scale></LabelStyle>
+    </Style>
+    <Style id="sn_5">
+        <IconStyle><scale>0.9</scale><heading>0</heading><Icon><href>files/5.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/5-lv.png</href></ItemIcon></ListStyle>
+       <LabelStyle><scale>0</scale></LabelStyle>
+    </Style>
+    <StyleMap id="msn_4">
+        <Pair><key>normal</key><styleUrl>#sn_4</styleUrl></Pair>
+        <Pair><key>highlight</key><styleUrl>#sh_4</styleUrl></Pair>
+    </StyleMap>
+    <Style id="sh_4">
+        <IconStyle><scale>0.9</scale><heading>0</heading><Icon><href>files/4.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/4-lv.png</href></ItemIcon></ListStyle>
+        <LabelStyle><scale>1</scale></LabelStyle>
+    </Style>
+    <Style id="sn_4">
+        <IconStyle><scale>0.9</scale><heading>0</heading><Icon><href>files/4.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/4-lv.png</href></ItemIcon></ListStyle>
+       <LabelStyle><scale>0</scale></LabelStyle>
+    </Style>
+    <StyleMap id="msn_3">
+        <Pair><key>normal</key><styleUrl>#sn_3</styleUrl></Pair>
+        <Pair><key>highlight</key><styleUrl>#sh_3</styleUrl></Pair>
+    </StyleMap>
+    <Style id="sh_3">
+        <IconStyle><scale>0.8</scale><heading>0</heading><Icon><href>files/3.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/3-lv.png</href></ItemIcon></ListStyle>
+        <LabelStyle><scale>1</scale></LabelStyle>
+    </Style>
+    <Style id="sn_3">
+        <IconStyle><scale>0.8</scale><heading>0</heading><Icon><href>files/3.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/3-lv.png</href></ItemIcon></ListStyle>
+       <LabelStyle><scale>0</scale></LabelStyle>
+    </Style>
+    <StyleMap id="msn_2">
+        <Pair><key>normal</key><styleUrl>#sn_2</styleUrl></Pair>
+        <Pair><key>highlight</key><styleUrl>#sh_2</styleUrl></Pair>
+    </StyleMap>
+    <Style id="sh_2">
+        <IconStyle><scale>0.8</scale><heading>0</heading><Icon><href>files/2.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/2-lv.png</href></ItemIcon></ListStyle>
+        <LabelStyle><scale>1</scale></LabelStyle>
+    </Style>
+    <Style id="sn_2">
+        <IconStyle><scale>0.8</scale><heading>0</heading><Icon><href>files/2.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/2-lv.png</href></ItemIcon></ListStyle>
+       <LabelStyle><scale>0</scale></LabelStyle>
+    </Style>
+    <StyleMap id="msn_1">
+        <Pair><key>normal</key><styleUrl>#sn_1</styleUrl></Pair>
+        <Pair><key>highlight</key><styleUrl>#sh_1</styleUrl></Pair>
+    </StyleMap>
+    <Style id="sh_1">
+        <IconStyle><scale>0.5</scale><heading>0</heading><Icon><href>files/1.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href></ItemIcon></ListStyle>
+        <LabelStyle><scale>1</scale></LabelStyle>
+    </Style>
+    <Style id="sn_1">
+        <IconStyle><scale>0.5</scale><heading>0</heading><Icon><href>files/1.png</href></Icon></IconStyle>
+        <ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href></ItemIcon></ListStyle>
+       <LabelStyle><scale>0</scale></LabelStyle>
+    </Style>
+<!-- Highlight setting end-->
+    <LookAt>
+        <longitude>120.8</longitude>
+        <latitude>23.6</latitude>
+        <altitude>0</altitude>
+        <range>580000</range>
+        <tilt>0</tilt>
+        <heading>0</heading>
+    </LookAt>
+<Placemark><name>2020/12/10 21:19:58(UTC+8) M:6.7</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2020121021195867072.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>122.03</longitude><latitude>24.74</latitude><range>50000</range></LookAt>--><styleUrl>#eqmap</styleUrl><Style><IconStyle><scale>1.7</scale></IconStyle></Style><Point><coordinates>122.03,24.74</coordinates></Point></Placemark>
+<Folder>
+<name>震度分布圖</name>
+<visibility>0</visibility>
+<Folder>
+<name>
+Intensity: 4
+</name>
+<Placemark><name>蘇澳, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-TWC.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.86</longitude><latitude>24.61</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.86,24.61</coordinates></Point></Placemark>
+<Placemark><name>頭城, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NTC.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.83</longitude><latitude>24.85</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.83,24.85</coordinates></Point></Placemark>
+<Placemark><name>宜蘭市, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-ILA.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.76</longitude><latitude>24.76</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.76,24.76</coordinates></Point></Placemark>
+<Placemark><name>冬山, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NDS.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.72</longitude><latitude>24.63</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.72,24.63</coordinates></Point></Placemark>
+<Placemark><name>內城, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-TWE.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.68</longitude><latitude>24.72</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.68,24.72</coordinates></Point></Placemark>
+<Placemark><name>南澳, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-ENA.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.75</longitude><latitude>24.43</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.75,24.43</coordinates></Point></Placemark>
+<Placemark><name>烏來, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NWL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.50</longitude><latitude>24.78</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.50,24.78</coordinates></Point></Placemark>
+<Placemark><name>澳花, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-EAH.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.74</longitude><latitude>24.33</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.74,24.33</coordinates></Point></Placemark>
+<Placemark><name>大同, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NDT.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.51</longitude><latitude>24.60</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.51,24.60</coordinates></Point></Placemark>
+<Placemark><name>和平, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-EHP.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.75</longitude><latitude>24.31</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.75,24.31</coordinates></Point></Placemark>
+<Placemark><name>新店, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NHDH.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.53</longitude><latitude>24.96</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.53,24.96</coordinates></Point></Placemark>
+<Placemark><name>信義區, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NHY.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.57</longitude><latitude>25.04</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.57,25.04</coordinates></Point></Placemark>
+<Placemark><name>新北市, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-BAC.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.44</longitude><latitude>25.00</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.44,25.00</coordinates></Point></Placemark>
+<Placemark><name>三光, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NSK.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.37</longitude><latitude>24.67</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.37,24.67</coordinates></Point></Placemark>
+<Placemark><name>南山, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NNS.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.38</longitude><latitude>24.44</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.38,24.44</coordinates></Point></Placemark>
+<Placemark><name>淡水, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NTS.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.45</longitude><latitude>25.16</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.45,25.16</coordinates></Point></Placemark>
+<Placemark><name>太魯閣, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-ETL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.62</longitude><latitude>24.16</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.62,24.16</coordinates></Point></Placemark>
+<Placemark><name>桃園市, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NTY.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.30</longitude><latitude>25.00</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.30,25.00</coordinates></Point></Placemark>
+<Placemark><name>西寶, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-ETLH.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.48</longitude><latitude>24.21</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.48,24.21</coordinates></Point></Placemark>
+<Placemark><name>關西, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-KSHI.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.18</longitude><latitude>24.78</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.18,24.78</coordinates></Point></Placemark>
+<Placemark><name>五峰, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NFF.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.12</longitude><latitude>24.63</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.12,24.63</coordinates></Point></Placemark>
+<Placemark><name>花蓮市, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-HWA.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.61</longitude><latitude>23.98</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.61,23.98</coordinates></Point></Placemark>
+<Placemark><name>竹東, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NJD.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.09</longitude><latitude>24.74</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.09,24.74</coordinates></Point></Placemark>
+<Placemark><name>合歡山, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-WHF.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.27</longitude><latitude>24.14</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.27,24.14</coordinates></Point></Placemark>
+<Placemark><name>鹽寮, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-EYL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.60</longitude><latitude>23.90</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.60,23.90</coordinates></Point></Placemark>
+<Placemark><name>德基, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-TWT.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.16</longitude><latitude>24.25</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.16,24.25</coordinates></Point></Placemark>
+<Placemark><name>新屋, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NHW.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.05</longitude><latitude>25.01</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.05,25.01</coordinates></Point></Placemark>
+<Placemark><name>水璉, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-SHUL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.56</longitude><latitude>23.79</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.56,23.79</coordinates></Point></Placemark>
+<Placemark><name>磯崎, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-EGC.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.55</longitude><latitude>23.71</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>121.55,23.71</coordinates></Point></Placemark>
+<Placemark><name>苗栗市, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-NMLH.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.79</longitude><latitude>24.54</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>120.79,24.54</coordinates></Point></Placemark>
+<Placemark><name>斗六市, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-WDL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.54</longitude><latitude>23.71</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>120.54,23.71</coordinates></Point></Placemark>
+<Placemark><name>番路, 震度: 4級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/4-WCKO.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.60</longitude><latitude>23.44</latitude><range>50000</range></LookAt>--><styleUrl>#msn_4</styleUrl><Point><coordinates>120.60,23.44</coordinates></Point></Placemark>
+</Folder>
+<Folder>
+<name>
+Intensity: 3
+</name>
+<Placemark><name>三貂角, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-TWB1.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>122.00</longitude><latitude>25.01</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>122.00,25.01</coordinates></Point></Placemark>
+<Placemark><name>雙溪, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-TIPB.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.83</longitude><latitude>24.97</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.83,24.97</coordinates></Point></Placemark>
+<Placemark><name>基隆市, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-NOU.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.77</longitude><latitude>25.15</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.77,25.15</coordinates></Point></Placemark>
+<Placemark><name>五股, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-TWS1.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.42</longitude><latitude>25.10</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.42,25.10</coordinates></Point></Placemark>
+<Placemark><name>秀林, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-TWD.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.60</longitude><latitude>24.08</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.60,24.08</coordinates></Point></Placemark>
+<Placemark><name>梨山, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-FUSS.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.24</longitude><latitude>24.25</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.24,24.25</coordinates></Point></Placemark>
+<Placemark><name>銅門, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-ETM.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.49</longitude><latitude>23.97</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.49,23.97</coordinates></Point></Placemark>
+<Placemark><name>新竹市, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-HSN1.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.02</longitude><latitude>24.78</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.02,24.78</coordinates></Point></Placemark>
+<Placemark><name>峨眉, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-LIOB.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.02</longitude><latitude>24.65</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.02,24.65</coordinates></Point></Placemark>
+<Placemark><name>竹北市, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-HSN.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.01</longitude><latitude>24.83</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.01,24.83</coordinates></Point></Placemark>
+<Placemark><name>南庄, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-NST.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.01</longitude><latitude>24.63</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.01,24.63</coordinates></Point></Placemark>
+<Placemark><name>竹南, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-NJN.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.87</longitude><latitude>24.68</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.87,24.68</coordinates></Point></Placemark>
+<Placemark><name>西林, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-ESL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.44</longitude><latitude>23.81</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.44,23.81</coordinates></Point></Placemark>
+<Placemark><name>烏石坑, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-WHP.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.95</longitude><latitude>24.28</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.95,24.28</coordinates></Point></Placemark>
+<Placemark><name>奧萬大, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-OWD.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.18</longitude><latitude>23.95</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.18,23.95</coordinates></Point></Placemark>
+<Placemark><name>三義, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-NSY.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.77</longitude><latitude>24.41</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.77,24.41</coordinates></Point></Placemark>
+<Placemark><name>光復, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-EGFH.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.43</longitude><latitude>23.67</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.43,23.67</coordinates></Point></Placemark>
+<Placemark><name>鯉魚潭, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-TWQ1.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.77</longitude><latitude>24.35</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.77,24.35</coordinates></Point></Placemark>
+<Placemark><name>國姓, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-WCS.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.91</longitude><latitude>24.06</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.91,24.06</coordinates></Point></Placemark>
+<Placemark><name>大甲, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-WDJ.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.64</longitude><latitude>24.35</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.64,24.35</coordinates></Point></Placemark>
+<Placemark><name>日月潭, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-SML.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.91</longitude><latitude>23.88</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.91,23.88</coordinates></Point></Placemark>
+<Placemark><name>紅葉, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-EHY.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.33</longitude><latitude>23.50</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.33,23.50</coordinates></Point></Placemark>
+<Placemark><name>名間, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-WNT.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.69</longitude><latitude>23.88</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.69,23.88</coordinates></Point></Placemark>
+<Placemark><name>信義鄉, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-WHY.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.85</longitude><latitude>23.70</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.85,23.70</coordinates></Point></Placemark>
+<Placemark><name>竹山, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-WJS.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.73</longitude><latitude>23.82</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.73,23.82</coordinates></Point></Placemark>
+<Placemark><name>彰化市, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-WCH1.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.55</longitude><latitude>24.07</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.55,24.07</coordinates></Point></Placemark>
+<Placemark><name>長濱, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-ECB.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.45</longitude><latitude>23.32</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.45,23.32</coordinates></Point></Placemark>
+<Placemark><name>玉里, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-EYUL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.32</longitude><latitude>23.35</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.32,23.35</coordinates></Point></Placemark>
+<Placemark><name>員林, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-WYL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.58</longitude><latitude>23.96</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.58,23.96</coordinates></Point></Placemark>
+<Placemark><name>阿里山, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-ALS.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.81</longitude><latitude>23.51</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.81,23.51</coordinates></Point></Placemark>
+<Placemark><name>富里, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-FULB.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.29</longitude><latitude>23.20</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.29,23.20</coordinates></Point></Placemark>
+<Placemark><name>草嶺, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-CHN5.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.68</longitude><latitude>23.60</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.68,23.60</coordinates></Point></Placemark>
+<Placemark><name>古坑, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-WGK.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.57</longitude><latitude>23.68</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.57,23.68</coordinates></Point></Placemark>
+<Placemark><name>成功, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-CHK.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.37</longitude><latitude>23.10</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.37,23.10</coordinates></Point></Placemark>
+<Placemark><name>海端, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-EHD.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.21</longitude><latitude>23.15</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.21,23.15</coordinates></Point></Placemark>
+<Placemark><name>池上, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-ECS.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.22</longitude><latitude>23.10</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.22,23.10</coordinates></Point></Placemark>
+<Placemark><name>利稻, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-ELD.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.03</longitude><latitude>23.19</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.03,23.19</coordinates></Point></Placemark>
+<Placemark><name>大城, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-WTC.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.29</longitude><latitude>23.86</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.29,23.86</coordinates></Point></Placemark>
+<Placemark><name>民雄, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-CHN2.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.47</longitude><latitude>23.53</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.47,23.53</coordinates></Point></Placemark>
+<Placemark><name>東河, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-EDH.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.30</longitude><latitude>22.97</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.30,22.97</coordinates></Point></Placemark>
+<Placemark><name>嘉義市, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-CHY.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.43</longitude><latitude>23.50</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.43,23.50</coordinates></Point></Placemark>
+<Placemark><name>桃源, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-STYH.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.78</longitude><latitude>23.18</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.78,23.18</coordinates></Point></Placemark>
+<Placemark><name>四湖, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-WSF.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.23</longitude><latitude>23.64</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.23,23.64</coordinates></Point></Placemark>
+<Placemark><name>水林, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-WSL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.23</longitude><latitude>23.52</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.23,23.52</coordinates></Point></Placemark>
+<Placemark><name>新化, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-SHH.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.35</longitude><latitude>23.02</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.35,23.02</coordinates></Point></Placemark>
+<Placemark><name>七股, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-SCK.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.09</longitude><latitude>23.15</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>120.09,23.15</coordinates></Point></Placemark>
+<Placemark><name>蘭嶼, 震度: 3級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/3-LAY.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.56</longitude><latitude>22.04</latitude><range>50000</range></LookAt>--><styleUrl>#msn_3</styleUrl><Point><coordinates>121.56,22.04</coordinates></Point></Placemark>
+</Folder>
+<Folder>
+<name>
+Intensity: 2
+</name>
+<Placemark><name>陽明山, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-ANP.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.53</longitude><latitude>25.18</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>121.53,25.18</coordinates></Point></Placemark>
+<Placemark><name>埔里, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-WPL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.95</longitude><latitude>24.01</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.95,24.01</coordinates></Point></Placemark>
+<Placemark><name>魚池, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-TYC.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.87</longitude><latitude>23.91</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.87,23.91</coordinates></Point></Placemark>
+<Placemark><name>臺中市, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-TCU.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.68</longitude><latitude>24.15</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.68,24.15</coordinates></Point></Placemark>
+<Placemark><name>霧峰, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-WWF.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.70</longitude><latitude>24.04</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.70,24.04</coordinates></Point></Placemark>
+<Placemark><name>南投市, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-WNT1.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.68</longitude><latitude>23.91</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.68,23.91</coordinates></Point></Placemark>
+<Placemark><name>麥寮, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-WML.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.22</longitude><latitude>23.80</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.22,23.80</coordinates></Point></Placemark>
+<Placemark><name>大埔, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-WTP.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.62</longitude><latitude>23.24</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.62,23.24</coordinates></Point></Placemark>
+<Placemark><name>鹿野, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-LONT.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.13</longitude><latitude>22.91</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>121.13,22.91</coordinates></Point></Placemark>
+<Placemark><name>東山, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-TWL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.50</longitude><latitude>23.26</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.50,23.26</coordinates></Point></Placemark>
+<Placemark><name>卑南, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-TWG.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.08</longitude><latitude>22.82</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>121.08,22.82</coordinates></Point></Placemark>
+<Placemark><name>甲仙, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-SGS.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.59</longitude><latitude>23.08</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.59,23.08</coordinates></Point></Placemark>
+<Placemark><name>綠島, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-LDU.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.47</longitude><latitude>22.67</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>121.47,22.67</coordinates></Point></Placemark>
+<Placemark><name>臺東市, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-TTN.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>121.15</longitude><latitude>22.75</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>121.15,22.75</coordinates></Point></Placemark>
+<Placemark><name>六龜, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-SLG.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.65</longitude><latitude>22.99</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.65,22.99</coordinates></Point></Placemark>
+<Placemark><name>義竹, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-CHN8.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.22</longitude><latitude>23.35</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.22,23.35</coordinates></Point></Placemark>
+<Placemark><name>善化, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-SSH.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.29</longitude><latitude>23.14</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.29,23.14</coordinates></Point></Placemark>
+<Placemark><name>佳里, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-SCL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.20</longitude><latitude>23.17</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.20,23.17</coordinates></Point></Placemark>
+<Placemark><name>旗山, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-SCS.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.49</longitude><latitude>22.89</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.49,22.89</coordinates></Point></Placemark>
+<Placemark><name>永康, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-TAI1.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.24</longitude><latitude>23.04</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.24,23.04</coordinates></Point></Placemark>
+<Placemark><name>三地門, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-SSD.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.64</longitude><latitude>22.74</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.64,22.74</coordinates></Point></Placemark>
+<Placemark><name>臺南市, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-TAI.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.20</longitude><latitude>23.00</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.20,23.00</coordinates></Point></Placemark>
+<Placemark><name>屏東市, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-SPT.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.49</longitude><latitude>22.68</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.49,22.68</coordinates></Point></Placemark>
+<Placemark><name>馬公市, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-PNG.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>119.56</longitude><latitude>23.57</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>119.56,23.57</coordinates></Point></Placemark>
+<Placemark><name>達仁, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-EAS.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.86</longitude><latitude>22.38</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.86,22.38</coordinates></Point></Placemark>
+<Placemark><name>大武, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-TAWH.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.89</longitude><latitude>22.34</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.89,22.34</coordinates></Point></Placemark>
+<Placemark><name>新埤, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-SSP.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.57</longitude><latitude>22.48</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.57,22.48</coordinates></Point></Placemark>
+<Placemark><name>恆春, 震度: 2級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/2-HEN.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.75</longitude><latitude>22.00</latitude><range>50000</range></LookAt>--><styleUrl>#msn_2</styleUrl><Point><coordinates>120.75,22.00</coordinates></Point></Placemark>
+</Folder>
+<Folder>
+<name>
+Intensity: 1
+</name>
+<Placemark><name>太麻里, 震度: 1級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/1-ECL.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.96</longitude><latitude>22.60</latitude><range>50000</range></LookAt>--><styleUrl>#msn_1</styleUrl><Point><coordinates>120.96,22.60</coordinates></Point></Placemark>
+<Placemark><name>馬祖, 震度: 1級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/1-MSU.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>119.92</longitude><latitude>26.17</latitude><range>50000</range></LookAt>--><styleUrl>#msn_1</styleUrl><Point><coordinates>119.92,26.17</coordinates></Point></Placemark>
+<Placemark><name>瑪家, 震度: 1級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/1-SMG.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.64</longitude><latitude>22.71</latitude><range>50000</range></LookAt>--><styleUrl>#msn_1</styleUrl><Point><coordinates>120.64,22.71</coordinates></Point></Placemark>
+<Placemark><name>壽山, 震度: 1級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/1-WSS.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.26</longitude><latitude>22.64</latitude><range>50000</range></LookAt>--><styleUrl>#msn_1</styleUrl><Point><coordinates>120.26,22.64</coordinates></Point></Placemark>
+<Placemark><name>高雄市, 震度: 1級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/1-KAU.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.32</longitude><latitude>22.57</latitude><range>50000</range></LookAt>--><styleUrl>#msn_1</styleUrl><Point><coordinates>120.32,22.57</coordinates></Point></Placemark>
+<Placemark><name>春日, 震度: 1級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/1-SCZ.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.63</longitude><latitude>22.37</latitude><range>50000</range></LookAt>--><styleUrl>#msn_1</styleUrl><Point><coordinates>120.63,22.37</coordinates></Point></Placemark>
+<Placemark><name>獅子, 震度: 1級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/1-SLIU.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.80</longitude><latitude>22.22</latitude><range>50000</range></LookAt>--><styleUrl>#msn_1</styleUrl><Point><coordinates>120.80,22.22</coordinates></Point></Placemark>
+<Placemark><name>小琉球, 震度: 1級</name><visibility>1</visibility><description><![CDATA[<img src="EQdata/1-WLC.png"><br/><br/>]]></description><Snippet maxLines="0"></Snippet><!--<LookAt><longitude>120.37</longitude><latitude>22.35</latitude><range>50000</range></LookAt>--><styleUrl>#msn_1</styleUrl><Point><coordinates>120.37,22.35</coordinates></Point></Placemark>
+</Folder>
+   <ScreenOverlay id="ShakemapLegend"><name>圖例</name><visibility>1</visibility><color>dfffffff</color><Icon><href>files/scale.png</href></Icon><overlayXY x="1" y="0" xunits="fraction" yunits="pixels"/><screenXY x="0.975" y="0.11" xunits="fraction" yunits="fraction"/><rotationXY x="0" y="0" xunits="pixels" yunits="pixels"/><size x="45" y="300" xunits="pixels" yunits="pixels"/></ScreenOverlay>
+   <GroundOverlay><name>等震度圖</name><visibility>1</visibility><color>66ffffff</color><Icon><href>files/shakemap.png</href><viewBoundScale>0.75</viewBoundScale></Icon><LatLonBox><north>26.09759441435609</north><south>20.36329476989471</south><east>123.2459184226361</east><west>118.2288528509178</west></LatLonBox></GroundOverlay>
+</Folder>
+  <ScreenOverlay id="CWBScreenOverlay001"><name>氣象局局徽</name><color>ffffffff</color><Icon><href>files/logo.png</href></Icon><overlayXY x="1" y="0" xunits="fraction" yunits="pixels"/><screenXY x=".32" y="0.04" xunits="fraction" yunits="fraction"/><rotationXY x="0" y="0" xunits="pixels" yunits="pixels"/><size x="301" y="51" xunits="pixels" yunits="pixels"/></ScreenOverlay>
+</Document>
+</kml>
